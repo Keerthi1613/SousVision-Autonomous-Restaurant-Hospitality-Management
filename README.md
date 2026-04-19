@@ -1,16 +1,43 @@
-# React + Vite
+# SousVision AI: Autonomous Kitchen Infrastructure
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Hackathon Entry** | *Empowering industrial kitchens with Agentic Vision and Neural Auditing.*
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## The Vision
+SousVision AI is an end-to-end autonomous infrastructure designed to eliminate operational blindness, food waste, and human error in commercial kitchens. By leveraging **Gemini 2.0 Flash** and **Agentic Workflows**, the system identifies hazards, predicts inventory deficits, and audits sustainability metrics in real-time.
 
-## React Compiler
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## Expanding the ESLint configuration
+## Core Pillars
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* **Omni-Eye Live Auditing:** Real-time multi-zone computer vision detection for liquid spills, cross-contamination, and hygiene hazards using multimodal reasoning.
+* **Neural Stock Tracking:** Autonomous inventory monitoring that triggers "Smart Reorders" and predictive stock alerts before items hit critical thresholds.
+* **WasteSense™:** An AI-driven sustainability engine that calculates the financial loss and Carbon Equivalence ($CO_{2}e$) of discarded resources.
+* **Managerial Bridge:** A finalized "Shift Audit" generator that compiles all daily visual data into an automated report dispatched directly to the facility manager.
+* **Kitchen Aura Score:** A proprietary real-time health index quantifying safety, efficiency, and sustainability.
+
+---
+
+## Tech Stack
+
+* **Frontend:** React 18, Vite, Tailwind CSS
+* **AI Engine:** Google Gemini 2.0 Flash (Multimodal LLM)
+* **Animations:** Framer Motion (for neural scanning and UI transitions)
+* **Media Pipeline:** WebRTC & HTML5 Canvas for real-time video processing
+* **Communication:** EmailJS / SMTP Bridge for automated reporting
+
+---
+
+## System Architecture
+
+The system follows an **Edge-to-Cloud-to-Action** pipeline:
+1.  **Ingestion:** Live video frames are captured at the Edge via the Omni-Eye node.
+2.  **Inference:** Frames are processed by the Gemini 2.0 engine for spatial and contextual reasoning.
+3.  **Action:** The system generates Agentic Action Plans and updates the live incident stream.
+4.  **Reporting:** Data is reconciled into a JSON payload for the Managerial Bridge.
+
+
+
+---
+
